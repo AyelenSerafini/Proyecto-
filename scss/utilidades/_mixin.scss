@@ -1,0 +1,33 @@
+
+
+
+@mixin medidas($width,$font,$height ){
+    width:$width;
+    font:$font ;
+    height: $height;
+}
+
+
+
+
+
+
+
+@mixin flex{
+        margin: 10px 50px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-top: 20px;
+      }
+
+.main-ejemplo{
+    @include flex;
+    @include medidas(10px,321px ,22px )
+}
+.footer-ejemplo{
+    @include flex;
+    @include medidas(200px,100px ,151px )
+}
+
+

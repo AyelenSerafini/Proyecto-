@@ -1,0 +1,9 @@
+$colores:tomato,orange, pink, white;
+$formato: border, light, bold;
+
+.prueba-header{
+    background-color:nth( $colores, 1);
+    .p{
+        font-size:nth($formato,2  );
+    }
+}

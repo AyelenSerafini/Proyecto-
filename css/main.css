@@ -1,0 +1,188 @@
+body {
+  background-color: grey;
+  padding: 100px;
+  color: black;
+  border: grey;
+}
+
+h1 {
+  display: block;
+  color: rgb(104, 227, 234);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(113, 245, 245);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+h3 {
+  color: rgb(92, 230, 225);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+header {
+  background-color: #969696;
+  border-color: aquamarine;
+  color: rgb(26, 20, 20);
+  text-align: center;
+  box-shadow: 20px 40px 200px rgb(205, 196, 205);
+}
+
+header .img {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(221, 219, 223);
+}
+
+header .nav {
+  margin-right: 100px;
+  color: rgb(63, 54, 116);
+  text-align: center;
+  display: flex;
+  gap: 50px;
+}
+
+header .nav .ul {
+  color: whitesmoke;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header .il {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50px;
+  align-items: baseline;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+}
+
+header .div {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 50px;
+}
+
+main {
+  text-align: center;
+  justify-content: center;
+  margin: 10px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+main .h3 {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main .h4 {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main .p {
+  font-size: 100px;
+  background-color: rgb(94, 227, 207);
+  display: flex;
+}
+
+main {
+  margin: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+main .img {
+  display: flex;
+}
+
+footer {
+  list-style-type: georgian;
+  text-align: center;
+  font: optional;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    background-color: rgb(63, 71, 77);
+    grid-template-columns: repeat(1, 1fr);
+    grid-row: repeat(1, 50%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(98, 103, 107);
+  }
+}
+section {
+  align-content: center;
+  text-align: center;
+}
+
+section .img {
+  width: 10%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+section .div {
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-ejemplo {
+  margin: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width: 10px;
+  font: 321px;
+  height: 22px;
+}
+
+.footer-ejemplo {
+  margin: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width: 200px;
+  font: 100px;
+  height: 151px;
+}
+
+.prueba-header {
+  background-color: tomato;
+}
+.prueba-header .p {
+  font-size: light;
+}
+
+/*# sourceMappingURL=main.css.map */
